@@ -1,0 +1,55 @@
+# === Node.js (Backend) ===
+/server/node_modules
+/server/.env
+/server/.DS_Store
+/server/dist
+/server/logs
+/server/npm-debug.log*
+
+# === React (Frontend) ===
+/client/node_modules
+/client/build
+/client/.env
+/client/.DS_Store
+/client/npm-debug.log*
+
+# === Common ===
+*.log
+*.env
+*.DS_Store
+.env.*
+!.env.example
+.vscode
+.idea
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.bak
+*.tmp
+
+# OS generated
+Thumbs.db
+.DS_Store
+
+# === Optional: if using yarn ===
+yarn.lock
+.pnp.*
+.cache/
+
+# === Optional: if using logs or debug tools ===
+logs
+*.log
+debug.log
+
+# === Optional: if using coverage tools (e.g., Jest) ===
+coverage/
+
+# === Optional: if using ESLint or Prettier caches ===
+.eslintcache
+.prettiercache
+
+# === Optional: if using typescript ===
+*.tsbuildinfo
+
+# === Optional: Docker or other environments ===
+docker-compose.override.yml
