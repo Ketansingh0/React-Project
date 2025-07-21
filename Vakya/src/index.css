@@ -15,12 +15,13 @@
   --background-color: white;
   --btn-background-color:black;
   --btn-color: white;
-  --hover-btn-background-color: rgba(3);
+  --hover-btn-background-color: rgba(35, 32, 32, 0.563);
 }
 
 .darkmode{
   --color: white;
-  --background-color: rgb(23, 32, 33);
+  --background-color: rgb(58, 85, 88);
   --btn-background-color: white;
   --btn-color: black;
+  --hover-btn-background-color: rgba(255,255,255,0.53)
 }
